@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pizas yisus.css">
+    <script src="yisus pizza.js" async></script>
+    <title>pizza yisus</title>
+</head>
+<body>
+    <header>
+        <h1><P></P>Pizzas yisus</h1>
+    </header>
+    <!--aqui utilize a href para llamar las paginas al cual son los botones -->
+    <nav>
+        <a href="practica_word.html"><button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button></a> 
+        <a href="pagian_lefor.html"><button type="submit" class="btn btn-primary btn-block">Contacto</button></a>
+        <p>CATALOGO</p>
+    </nav>
+    <section class="contenedor">
+        <!-- Contenedor de elementos  que son como mi catalogo de las ventas de pizzas-->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Pizza con peperoni</span>
+                <img src="https://www.saborusa.com/wp-content/uploads/2019/12/origen-de-la-pizza-1.jpg" alt="" class="img-item">
+                <span class="precio-item">68$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">pizza vegetariana </span>
+                <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2013/04/pizza-libre-de-gluten-670x375.jpg" alt="" class="img-item">
+                <span class="precio-item">95$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">pizza con cebolla</span>
+                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/10/11/0/PW_CauliflowerCrustPizza.jpg.rend.hgtvcom.826.620.suffix/1507927210016.jpeg" alt="" class="img-item">
+                <span class="precio-item">85$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">pizza con tomates picados  </span>
+                <img src="https://th.bing.com/th/id/R.1dcd63e80b6d039e76260e750f99309e?rik=ogV5d6p3zCvVBg&riu=http%3a%2f%2fwww.recetasycocina.net%2fgestor%2fupload%2fpizza-casera.jpg&ehk=inN%2beKDFoHcJfjnOEiHQoZOl8r9hRWs2jWta7VyVI6s%3d&risl=&pid=ImgRaw&r=0" alt="" class="img-item">
+                <span class="precio-item">120$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">pizza con rayados de queso y achoa </span>
+                <img src="https://i.ytimg.com/vi/Yv4TQ2I_tNA/maxresdefault.jpg" alt="" class="img-item">
+                <span class="precio-item">250$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="pizza con queso derretido">pizza con oregano</span>
+                <img src="https://th.bing.com/th/id/R.271830aa98d41f26c055c5ef48cefb28?rik=iccl9HALo8jKsQ&riu=http%3a%2f%2fwww.recetasdiarias.com%2fwp-content%2fuploads%2f2010%2f01%2fpizza-al-curry.jpg&ehk=%2fuxCH2Ak1U78s8SQz3LlD8brvgq4WLYiZrC2JpFeWu0%3d&risl=&pid=ImgRaw&r=0" alt="" class="img-item">
+                <span class="precio-item">75$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">por porciones de pizza </span>
+                <img src="https://pizzeriamarta.es/wp-content/uploads/2018/12/Pizza.jpg" alt="" class="img-item">
+                <span class="precio-item">20$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">pizza con piña</span>
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/02/pizzahawaiana.jpg" alt="" class="img-item">
+                <span class="precio-item">65B$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="bañada en queso">Middlesteel</span>
+                <img src="https://th.bing.com/th/id/OIP.N-MovWfMaJ44ukGZlDJEEQHaFj?w=1843&h=1382&rs=1&pid=ImgDetMain" alt="" class="img-item">
+                <span class="precio-item">500$</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras cual guarda lo comprado-->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <!--utilizando un strong para el total de compra del carrito y que lo acumule y los suma-->
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        10000.500$.
+                    </span>
+                </div>
+                <!--y el boton de pagar es la cual lo sunma lo acumulado-->
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
